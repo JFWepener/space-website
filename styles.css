@@ -1,0 +1,41 @@
+/* @font-face {
+  font-family: "acrylatte";
+  src: url(/AcrylatteDemoRegular.ttf);
+} */
+
+body {
+  margin: 0;
+  color: #354a4cff;
+  font-family: "Orbitron", sans-serif;
+  /* font-family: acrylatte; */
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+}
+
+.heading {
+  text-shadow: 0 0 4px black;
+  padding-top: 150px;
+}
+
+.hero {
+  background-image: url("/images/galaxy.webp");
+  background-size: cover;
+  padding: 10px 0 40px 0;
+  height: 80vh;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  color: #354a4cff;
+  font-weight: 800;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+}
